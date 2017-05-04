@@ -1,0 +1,204 @@
+.header{
+  display: inline-flex;
+  align-items: center;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 1;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 30px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Verdana;
+  color: MediumAquamarine;
+}
+a{
+  color: black;
+  text-decoration: underline;
+}
+
+}
+nav {
+  flex-grow:2;
+  padding-right: 30px;
+  display: inline-block;
+  text-align: right;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+
+}
+.maincontent{
+  display: flex;
+  padding-top: 120px;
+
+}
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+.story {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+    width: 300px;
+
+}
+.column.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+
+}
+.column {
+  display: flex;
+  margin-right:30px;
+}
+
+.imagecontent {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top:20px;
+  flex-direction: center;
+  justify-content: center;
+}
+.stories .textcontent {
+  height: 270px;
+
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 300px;
+
+}
+.imagecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+.headstory .imagecontent{
+  background-image: url(img-story-main.png);
+  width: 630px;
+  font-size: 40px;
+}
+.fallseason .imagecontent {
+  background-image: url(fallseason.png);
+  width: 300px;
+}
+.hipstercameraman .imagecontent {
+  background-image: url(hipstercameraman.png);
+  width: 300px;
+}
+.textcontent {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+
+}
+.column.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.girlwithcat .imagecontent {
+  background-image: url(girlwithcat.png);
+  width: 300px;
+}
+.column.small {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  width: 240px;
+}
+
+.cookie .imagecontent {
+  background-image: url(cookie.png);
+  width: 240px;
+}
+.newsbites {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight:bold;
+  text-align: center;
+}
+.newsbites h2 {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.newsbites .bite {
+  background-color: WhiteSmoke;
+  border-bottom: 1px solid black;
+  padding: 14px 18px;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: normal;
+  color: DimGray;
+  display: block;
+
+}
+
+.footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+}
+.footer .footertext {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+}
+.footer .mytimes {
+  padding-right: 14px;
+  border-right: 2px solid white;
+
+}
+.footer nav {
+  padding-left: 14px;
+  display: inline-block;
+  font-weight: normal;
+  font-family: Verdana;
+  font-size: 12px;
+}
+.copyright {
+  font-size: 12px;
+}
